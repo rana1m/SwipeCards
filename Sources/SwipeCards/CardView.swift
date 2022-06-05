@@ -9,7 +9,7 @@ import SwiftUI
 
 public struct CardView: View {
     @State private var offset = CGSize.zero
-    @State private var color: Color = .black
+    @State private var color: Color
     var person: String
     
     public init(offset:CGSize = CGSize.zero, color:Color = .red ,person:String = "Rana"){
